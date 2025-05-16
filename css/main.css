@@ -1,3 +1,15 @@
+body{
+    
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+}
+
 ul li{
     list-style: none;
 }
@@ -8,13 +20,21 @@ ul{
     display: flex;
 }
 ul li{
-    margin-left: 10px;
+    margin-right: 50px  ;
 }
 .primary-btn{
     background: #FD6E0A;
     border: 0;
-    padding: 5px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+
 }
-.wrapper{
+#stylish-word{
+  color: #FD6E0A;    
+}
+nav{
     display: flex;
+    justify-content: space-between;
 }
+
