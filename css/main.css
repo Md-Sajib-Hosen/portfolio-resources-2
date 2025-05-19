@@ -1,12 +1,15 @@
 body{
     
 .open-sans-<uniquifier> {
+  
+.open-sans-<uniquifier> {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 400;
+}
 }
 }
 
@@ -18,6 +21,7 @@ ul li a{
 }
 ul{
     display: flex;
+    align-items: center;
 }
 ul li{
     margin-right: 50px  ;
@@ -36,5 +40,6 @@ ul li{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
