@@ -32,6 +32,9 @@ ul li{
     padding: 10px;
     color: aliceblue;
     border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
 
 }
 #stylish-word{
@@ -41,5 +44,19 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+    
 }
-
+/* header */
+.header{
+    background-color: #FFF8F3;
+    
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 250px;
+}
